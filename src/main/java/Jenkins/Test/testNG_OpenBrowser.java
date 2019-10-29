@@ -24,9 +24,7 @@ public class testNG_OpenBrowser {
 		public void testEasy() {	
 			driver.get("http://demo.guru99.com/test/guru99home/");  
 			String title = driver.getTitle();	
-			System.out.println("Verifying Title");
-			System.out.println("Test Started");
-			Assert.assertTrue(title.contains("Demo Guru99 Page"));
+				Assert.assertTrue(title.contains("Demo Guru99 Page"));
 			System.out.println("Test Success");
 			
 		}	
