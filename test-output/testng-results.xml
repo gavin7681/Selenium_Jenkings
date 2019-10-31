@@ -2,24 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="9061" started-at="2019-10-29T19:37:56Z" finished-at="2019-10-29T19:38:05Z">
+  <suite name="Failed suite [Default suite]" duration-ms="5733" started-at="2019-10-30T19:30:02Z" finished-at="2019-10-30T19:30:08Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="9061" started-at="2019-10-29T19:37:56Z" finished-at="2019-10-29T19:38:05Z">
+    <test name="Default test(failed)" duration-ms="5733" started-at="2019-10-30T19:30:02Z" finished-at="2019-10-30T19:30:08Z">
       <class name="Jenkins.Test.testNG_OpenBrowser">
-        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Jenkins.Test.testNG_OpenBrowser@5bfbf16f]" name="beforeTest" is-config="true" duration-ms="3046" started-at="2019-10-29T19:37:56Z" finished-at="2019-10-29T19:37:59Z">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:Jenkins.Test.testNG_OpenBrowser@5f3a4b84]" name="beforeTest" is-config="true" duration-ms="2993" started-at="2019-10-30T19:30:02Z" finished-at="2019-10-30T19:30:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method status="PASS" signature="testEasy()[pri:0, instance:Jenkins.Test.testNG_OpenBrowser@5bfbf16f]" name="testEasy" duration-ms="4874" started-at="2019-10-29T19:37:59Z" finished-at="2019-10-29T19:38:04Z">
+        <test-method status="PASS" signature="testEasy()[pri:0, instance:Jenkins.Test.testNG_OpenBrowser@5f3a4b84]" name="testEasy" duration-ms="1578" started-at="2019-10-30T19:30:05Z" finished-at="2019-10-30T19:30:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testEasy -->
-        <test-method status="PASS" signature="afterTest()[pri:0, instance:Jenkins.Test.testNG_OpenBrowser@5bfbf16f]" name="afterTest" is-config="true" duration-ms="1127" started-at="2019-10-29T19:38:04Z" finished-at="2019-10-29T19:38:05Z">
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:Jenkins.Test.testNG_OpenBrowser@5f3a4b84]" name="afterTest" is-config="true" duration-ms="1132" started-at="2019-10-30T19:30:07Z" finished-at="2019-10-30T19:30:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- Jenkins.Test.testNG_OpenBrowser -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Default test(failed) -->
+  </suite> <!-- Failed suite [Default suite] -->
 </testng-results>
