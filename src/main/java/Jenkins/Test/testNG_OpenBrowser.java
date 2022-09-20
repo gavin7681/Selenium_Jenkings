@@ -13,7 +13,7 @@ public class testNG_OpenBrowser {
 	 private WebDriver driver;
 		@BeforeTest
 		public void beforeTest() {	
-			 System.setProperty("webdriver.chrome.driver", "H:/webdrivers/chromedriver_win32/chromedriver.exe");
+			 System.setProperty("webdriver.chrome.driver", "C:/WebDriver/chromedriver.exe");
 			//System.setProperty("webdriver.firefox.driver", "H:/webdrivers/geckodriver-v0.26.0-win64/geckodriver.exe");
  	
 			
